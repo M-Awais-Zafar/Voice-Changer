@@ -70,7 +70,7 @@ fun AudioEffectScreen(
         val adRequest = AdRequest.Builder().build()
         RewardedAd.load(
             context,
-            "ca-app-pub-3940256099942544/5224354917",
+            "ca-app-pub-3334909794201811/4848237922",
             adRequest,
             object : RewardedAdLoadCallback() {
                 override fun onAdFailedToLoad(adError: LoadAdError) {
@@ -88,7 +88,7 @@ fun AudioEffectScreen(
         val adRequest = AdRequest.Builder().build()
         InterstitialAd.load(
             context,
-            "ca-app-pub-3940256099942544/1033173712",
+            "ca-app-pub-3334909794201811/7011366835",
             adRequest,
             object : InterstitialAdLoadCallback() {
                 override fun onAdLoaded(ad: InterstitialAd) {

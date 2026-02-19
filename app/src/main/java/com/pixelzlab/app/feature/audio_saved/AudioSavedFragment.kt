@@ -210,7 +210,7 @@ class AudioSavedFragment : Fragment() {
     }
 
     private fun loadNativeAd(rootView: View) {
-        val adLoader = AdLoader.Builder(requireContext(), "ca-app-pub-3940256099942544/2247696110")
+        val adLoader = AdLoader.Builder(requireContext(), "ca-app-pub-3334909794201811/2633138129")
             .forNativeAd { ad : NativeAd ->
                 nativeAd?.destroy()
                 nativeAd = ad
